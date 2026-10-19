@@ -7,7 +7,7 @@ Reusable AI skills for design, research, and everyday workflows. Practical instr
 
 - [site-scan-report](skills/site-scan-report/SKILL.md): evidence-based site screening and modular site-selection reports. Version 0.1.0. Requires an authorised presentation template and research/presentation tools; full runtime testing is pending.
 
-- [sj-datacenter-site-planning](skills/sj-datacenter-site-planning/SKILL.md): data centre site surveys, infrastructure planning requirements, facility checks and evidence-based trade-offs for planners and infrastructure engineers. Includes a project workbook and page-level source digest. Version 1.0.0. Structure and desk scenarios checked; real-project validation pending.
+- [datacenter-site-planning](skills/datacenter-site-planning/SKILL.md): data centre site surveys, infrastructure planning requirements, facility checks and evidence-based trade-offs for planners and infrastructure engineers. Includes a project workbook and page-level source digest. Version 1.0.0. Structure and desk scenarios checked; real-project validation pending.
 
 ## Install and update
 

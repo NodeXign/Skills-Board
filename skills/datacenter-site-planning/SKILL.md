@@ -1,5 +1,5 @@
 ---
-name: sj-datacenter-site-planning
+name: datacenter-site-planning
 description: 从规划师与基础设施工程师角度，完成数据中心选址踏勘、容量与参数需求定义、总平面及场外配套规划、方案取舍和阶段审查。适用于新建或扩建数据中心及园区的前期可行性与规划设计，不替代专业详细设计或法定审批。
 ---
 
