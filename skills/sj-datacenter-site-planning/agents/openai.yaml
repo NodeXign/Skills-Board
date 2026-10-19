@@ -1,0 +1,4 @@
+interface:
+  display_name: "数据中心选址与规划"
+  short_description: "把场地踏勘、基础设施容量与方案取舍转成可分工和检查的项目规划要求"
+  default_prompt: "使用 $sj-datacenter-site-planning，从规划师与基础设施工程师角度审查这个项目，输出场地约束、参数缺口、设施接口和推进条件。"
