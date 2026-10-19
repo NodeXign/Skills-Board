@@ -3,6 +3,8 @@ Reusable AI skills for design, research, and everyday workflows. Practical instr
 
 ## Available skills
 
+- [script-to-slides](skills/script-to-slides/SKILL.md): narrative-first presentations with linked slide maps, timed speaker notes and reusable components. Version 0.1.0. Uses your supplied template; no company branding assets are included.
+
 - [site-scan-report](skills/site-scan-report/SKILL.md): evidence-based site screening and modular site-selection reports. Version 0.1.0. Requires an authorised presentation template and research/presentation tools; full runtime testing is pending.
 
 ## Install and update
