@@ -1,9 +1,9 @@
 ---
 name: datacenter-site-planning
-description: 从规划师与基础设施工程师角度，完成数据中心选址踏勘、容量与参数需求定义、总平面及场外配套规划、方案取舍和阶段审查。适用于新建或扩建数据中心及园区的前期可行性与规划设计，不替代专业详细设计或法定审批。
+description: 数据中心选址、容量与面积推演、总图及场外基础设施协调、电力与冷却策略、低碳路径和方案阶段审查。适用于园区前期可行性与规划设计、技术问答及方案比较，不替代专业详细设计或法定审批。
 ---
 
-# 数据中心选址与基础设施规划
+# 数据中心规划：选址、容量与能源基础设施
 
 将数据中心看成“机房 + 场内设施 + 场外连接 + 区域容量与社区影响”。目标是产出能分工、取数、画图、比较和关闭问题的项目要求，不能仅总结知识。
 
@@ -13,6 +13,13 @@ description: 从规划师与基础设施工程师角度，完成数据中心选�
 - 方案检查／取舍：读 [review-and-tradeoffs.md](references/review-and-tradeoffs.md)，检查设施、失效工况、场外依赖和原则冲突。
 - 追溯原文、核对概念：读 [source-digest.md](references/source-digest.md)。来源页码为 PDF 页码。
 - 全流程：依次应用前三种模式；复制 [project-workbook.md](assets/project-workbook.md) 为项目版本，不改 skill 模板。
+
+- 容量／面积／模块推演：读 [capacity-and-space.md](references/capacity-and-space.md)，显式定义五变量、单位和各类容量上限。
+- 供能／冷却／低碳／经济比较：读 [energy-and-cooling.md](references/energy-and-cooling.md)，按工况、依赖和生命周期比较。
+- 快速技术问答：只读有关模块，直接给结论、约束、计算或依据和待核项，不强制填整套工作簿。
+
+## 版本与兼容
+版本2.0.0，2026-10-22。GitHub入口为datacenter-site-planning；本地兼容入口dc-planning仅改变frontmatter name，模块内容一致。支持一般数据中心、Hyperscale、Colocation和AI/HPC的概念规划。保留原有踏勘和项目工作簿；新增容量与能源模块，撤销未经证实的通用阈值。使用可用工具完成研究、GIS/CAD或报表；没有真实工具与输入时只交付任务书／概念计算，不能声称完成解析、测量或工程验证。
 
 ## 最少输入与继续工作的规则
 先读项目现有边界图、任务书、规划条件和公用事业函件。提取国家／辖区、地块边界与坐标系、项目类型与用途、IT负荷及分期、投运时间、可用性要求、冷却方案和已知电水限制。

@@ -30,3 +30,10 @@
 
 ## 外部核对记录
 2026-10-19尝试读取原文所引 Uptime Institute 官方 Tier 页面（https://uptimeinstitute.com/tiers），工具返回403，未完成现行标准独立核实。因此本包不提供Tier合规判定；实际项目应读取可访问的现行官方文件并请相关专业确认。
+
+## v2技术补充的依据与限制（2026-10-22）
+- 容量恒等式、量纲修正及方案流程为工程方法补充，不是法规或经验密度标准。旧本地技术参考的无来源阈值、绝对化能源排名和固定工期不继承。
+- DOE/NREL, Best Practices Guide for Energy-Efficient Data Center Design, revised July 2024：2026-10-22读取官方PDF，https://www.energy.gov/sites/default/files/2024-07/best-practice-guide-data-center-design_0.pdf 。§5冷却、§7余热、§8计量；PUE按同周期全站／IT电量定义。该指南不是项目所在地法规；不把其示例性能当许可限值。
+- Uptime Tier页面 https://uptimeinstitute.com/tiers ：2026-10-22直接读取仍返回403；官方检索摘要支持Tier III可同时维护及冗余路径。未独立取得完整现行标准，不输出认证结论；项目应由合资格专业核验现行标准。
+- 冷却算例中的1.15、0.55及面积算例参数均为合成输入，只演示计算。1 TR约3.51685 kW；单位采用制冷吨功率转换，不指设备重量。
+- 法规、能源价格、供应可得性及许可时序须在每个项目重新核实；本技能无通用PUE、容积率、MW/ha或绿能最低阈值。
