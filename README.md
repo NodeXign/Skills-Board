@@ -11,6 +11,8 @@ Reusable AI skills for design, research, and everyday workflows. Practical instr
 
 - [datacenter-site-planning](skills/datacenter-site-planning/SKILL.md): data centre site surveys, infrastructure planning requirements, facility checks and evidence-based trade-offs for planners and infrastructure engineers. Includes capacity/space arithmetic, power/cooling/decarbonisation strategy, a project workbook and source digest. Version 2.0.0. Unit calculations and desk scenarios checked; real-project validation pending.
 
+- [aleph-geospatial](skills/aleph-geospatial/SKILL.md): Aleph geospatial capture setup and site-context workflow for OSM buildings, terrain and supported imagery; requires Python 3.11+ and a separate Aleph installation. Data licensing and survey-accuracy limits apply.
+
 ## Install and update
 
 Clone this repository, then copy the selected folder from `skills/` into your tool's skills directory. For Codex on this machine, the selected destination is `~/.codex/skills/`. Keep the entire skill folder together. Check the destination supported by other tools before installing; cross-platform execution is not yet verified.
