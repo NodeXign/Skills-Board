@@ -3,6 +3,8 @@ Reusable AI skills for design, research, and everyday workflows. Practical instr
 
 ## Available skills
 
+- [planning](skills/planning/SKILL.md): output-driven routing for GIS maps, accessibility, terrain, massing, environmental diagrams and renders. Includes 13 output routes and 19 referenced resources; combines available tools without assuming they are installed. Version 0.1.0. Structural checks completed; runtime workflows remain task-dependent.
+
 - [consultant](skills/consultant/SKILL.md): bilingual executive problem solving with a McKinsey CEO-level strategic lens and Barbara Minto-inspired pyramid communication; includes 30-second key lines, SCQA, MECE, hypothesis testing and innovation under constraints. Version 1.1.0. An independent advisory persona, not an affiliated product.
 
 - [script-to-slides](skills/script-to-slides/SKILL.md): narrative-first presentations with linked slide maps, timed speaker notes and reusable components. Version 0.1.0. Uses your supplied template; no company branding assets are included.
