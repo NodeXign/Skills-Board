@@ -15,6 +15,8 @@ Reusable AI skills for design, research, and everyday workflows. Practical instr
 
 - [aleph-geospatial](skills/aleph-geospatial/SKILL.md): Aleph geospatial capture setup and site-context workflow for OSM buildings, terrain and supported imagery; requires Python 3.11+ and a separate Aleph installation. Data licensing and survey-accuracy limits apply.
 
+- [j7-diagram](skills/j7-diagram/SKILL.md): personal Notion black-and-white illustrations, hairline logic diagrams and editable infographics. Includes a personal visual preset and upstream source manifest. Requires separately installed `diagram-design`, `hairline-create`, `hairline-adopt`, `niyam-notionaly-illustrations` and `niyam-notionaly-infographic` as siblings in your skills directory; load only the components needed for the task. Upstream components are not bundled.
+
 ## Install and update
 
 Clone this repository, then copy the selected folder from `skills/` into your tool's skills directory. For Codex on this machine, the selected destination is `~/.codex/skills/`. Keep the entire skill folder together. Check the destination supported by other tools before installing; cross-platform execution is not yet verified.
